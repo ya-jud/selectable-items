@@ -1,5 +1,36 @@
-# Vue 3 + TypeScript + Vite
+# selectable-items
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Описание
+Этот проект создан для выполнения тестового задания. Он реализован на современном стеке фронтенд-технологий с использованием Vue 3, Vite, TypeScript, SCSS и Pinia для управления состоянием.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Стек технологий
+- [Vue 3](https://vuejs.org/) — основной фреймворк
+- [Vite](https://vitejs.dev/) — быстрый сборщик и dev-сервер
+- [TypeScript](https://www.typescriptlang.org/) — типизация
+- [SCSS (Sass)](https://sass-lang.com/) — стилизация
+- [Pinia](https://pinia.vuejs.org/) — современное управление состоянием
+
+## Назначение
+Проект предназначен для демонстрации навыков работы с современным фронтенд-стеком в рамках тестового задания.
+
+## Команды
+
+### Установка зависимостей
+```bash
+npm install
+```
+
+### Запуск в режиме разработки
+```bash
+npm run dev
+```
+
+### Сборка для продакшена
+```bash
+npm run build
+```
+
+### Превью собранного приложения
+```bash
+npm run preview
+```

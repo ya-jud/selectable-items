@@ -1,4 +1,3 @@
-// @ts-ignore
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 import { defineConfig } from 'vite'
