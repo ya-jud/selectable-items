@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: [
-      { find: '@components', replacement: path.resolve(__dirname, 'src/components') }
+      { find: '@components', replacement: path.resolve(__dirname, 'src/components') },
+      { find: '@pinia', replacement: path.resolve(__dirname, 'src/store/index') }
     ]
   }
 })
